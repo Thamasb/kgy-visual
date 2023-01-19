@@ -9,7 +9,7 @@
 body{
     font-family: 'Barlow Condensed', sans-serif;
     font-weight: 400;
-    color: red;
+    color: #cccccc;
 }
 
 /*headings*/
@@ -26,11 +26,13 @@ h1{
     font-size: 300%;
     list-style-type: none;
     text-decoration: none;
+    background-color: #163635;
 }
 
 #menu{
-    font-size: 150%;
+    font-size: 130%;
     letter-spacing: 5px;
+    background-color: #163635;
 }
 
 #menu li{
@@ -53,3 +55,34 @@ h1{
     border: 2px solid #cfcfcf;
     border-radius: 5px;
 }
+#introduction{
+    font-size: 130%;
+    font-family: 'Barlow Condensed', sans-serif;
+    width: 300px;
+    height: 450px;
+
+    padding-top: 20px;
+    padding-left: 10px;
+
+    background-color: #163635;
+    border-radius: 15px;
+
+    bottom: 15px;
+    right:160px;
+
+    position: absolute;
+}
+
+#introduction h2{
+    text-transform: uppercase;
+    letter-spacing: 3px
+}
+
+#hero-image{
+    height: 900px;
+    width: 50%;
+    border: solid #cfcfcf;
+    border-radius: 15px;
+    background: url('../images/hero-image.jpeg') no-repeat center center;
+}
+
