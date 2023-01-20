@@ -151,9 +151,10 @@ footer {
     overflow: hidden;
     height: 150px;
     background-color: #163635;
-    position: bottom;
+    position: relative;
     clear: both;
     border-bottom: 0;
+   
 }
 .social-networks{
     text-align: center;
@@ -185,8 +186,6 @@ footer {
     position: absolute;
     padding: 15px;
     border-radius: 15px;
-
-
 }
 
 .text-input{
