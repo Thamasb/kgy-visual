@@ -83,12 +83,12 @@ header{
 #about-me{
     font-size: 130%;
     background-color: #163635;
-    width: 350px;
+    width: 550px;
     height: 100%;
     border-radius: 15px;
 
-    margin-left: 15px;
-    margin-top:15px;
+    margin-left: 30px;
+    margin-top: 30px;
 
     text-align: justify;
     padding: 15px;
@@ -118,7 +118,7 @@ header{
     float: right;
     border-radius: 15%;
     margin: 0 auto;
-    margin:15px;
+    margin:30px 50px;
 }
 
 #right-cover{
@@ -136,12 +136,12 @@ header{
 #services{
     font-size: 130%;
     background-color: #163635;
-    width: 350px;
+    
     height: 100%;
     border-radius: 15px;
 
     margin-left: 15px;
-    margin-top:15px;
+    margin-top:30px;
 
     text-align: justify;
     padding: 15px;
@@ -149,6 +149,8 @@ header{
     text-transform: uppercase;
     float:right;
 }
+
+
 
 
 /*footer*/
