@@ -84,7 +84,7 @@ header{
     font-size: 130%;
     background-color: #163635;
     width: 350px;
-    height: 450px;
+    height: 100%;
     border-radius: 15px;
 
     margin-left: 15px;
@@ -93,11 +93,63 @@ header{
     text-align: justify;
     padding: 15px;
     line-height: 150%;
+
+    float: left;
+}
+/*
+#profile-picture{
+    height: 100%;
+    width: 100%;
+    border: solid #cfcfcf;
+    border-radius: 15px;
+    position: relative;
+
+    background: url('../images/gyulakunsagi.png') no-repeat center center;
+}
+*/
+
+#right-circle{
+    width: 300px;
+    height: 300px;
+    padding: 15px;
+    border-style: solid;
+    border-color:#163635;
+    border-width: 5px;
+    float: right;
+    border-radius: 15%;
+    margin: 0 auto;
+    margin:15px;
 }
 
-#profile-pics{
-    
+#right-cover{
+    background: url('../images/gyulakunsagi.png')no-repeat center center;
+    height: 100%;
+    border-radius: 50%;
 }
+
+/*
+#profile-picture{
+}
+*/
+
+
+#services{
+    font-size: 130%;
+    background-color: #163635;
+    width: 350px;
+    height: 100%;
+    border-radius: 15px;
+
+    margin-left: 15px;
+    margin-top:15px;
+
+    text-align: justify;
+    padding: 15px;
+    line-height: 150%;
+    text-transform: uppercase;
+    float:right;
+}
+
 
 /*footer*/
 footer{
