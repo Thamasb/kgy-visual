@@ -1,67 +1,69 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
     border: none;
 }
 
-body{
+body {
     font-family: 'Barlow Condensed', sans-serif;
     color: #cccccc;
     background-color: #AACECC;
 }
 
-#content-style{
+#content-style {
     min-height: 90px;
     background-color: #163635;
 }
+
 /*headings*/
 
-h1, h2{
+h1,
+h2 {
     font-family: 'Barlow Condensed', sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
     color: #cccccc;
 }
 
-h2{
+h2 {
     font-size: 200%;
     margin: 15px 0;
 }
 
-header{
+header {
     background-color: #163635;
 
 
 }
 
-.logo-style{
+.logo-style {
     font-family: 'Barlow Condensed', sans-serif;
     font-weight: 300;
 }
 
-#logo{
-   float: right;
-   font-size: 400%;
-   margin:15px 15px;
+#logo {
+    float: right;
+    font-size: 400%;
+    margin: 15px 15px;
 }
 
-#menu{
+#menu {
     font-size: 130%;
     clear: center;
     bottom: 0;
     overflow-x: hidden;
 }
 
-#menu li{
+#menu li {
     width: 30%;
     display: inline-block;
     text-align: center;
 }
 
-#menu a{
-    background-color:#163635;
+#menu a {
+    background-color: #163635;
     width: 100%;
     text-decoration: none;
     color: #cccccc;
@@ -69,20 +71,20 @@ header{
     padding: 15px;
 }
 
-#menu a:hover{
+#menu a:hover {
     background-color: #778B90;
 }
 
-.active{
+.active {
     border-bottom: 1px solid #cccccc;
 }
 
-.content{
+.content {
     overflow: hidden;
     display: inherit;
 }
 
-#about-me{
+#about-me {
     font-size: 120%;
     background-color: #163635;
     width: 550px;
@@ -98,6 +100,7 @@ header{
 
     float: left;
 }
+
 /*
 #profile-picture{
     height: 100%;
@@ -110,86 +113,89 @@ header{
 }
 */
 
-#right-circle{
+#right-circle {
     width: 300px;
     height: 300px;
     padding: 15px;
     border-style: solid;
-    border-color:#163635;
+    border-color: #163635;
     border-width: 5px;
     float: right;
     border-radius: 15%;
     margin: 0 auto;
-    margin:30px 50px;
+    margin: 30px 50px;
 }
 
-#right-cover{
+#right-cover {
     background: url('../images/gyulakunsagi.png')no-repeat center center;
     height: 100%;
     border-radius: 50%;
 }
 
-#services{
+#services {
     font-size: 130%;
     background-color: #163635;
-    
+
     height: 100%;
     border-radius: 15px;
 
     margin-left: 15px;
-    margin-top:30px;
+    margin-top: 30px;
     margin-bottom: 30px;
 
     text-align: justify;
     padding: 15px;
     line-height: 150%;
     text-transform: uppercase;
-    float:right;
+    float: right;
 }
 
 /*footer*/
 
 footer {
     overflow: hidden;
-    height: 150px;
+    height: 80px;
     background-color: #163635;
     position: fixed;
     clear: both;
     border: none;
 
-    padding:1em;
+    padding: 1em;
     text-align: center;
     position: unset;
     margin-top: auto;
-   
+
 }
 
-.social-networks{
+.social {
     text-align: center;
-    
 }
-.social-networks > li{
+
+.social>li {
     display: inline;
 }
 
-.social-networks i{
-    font-size: 150%;
+.social i {
+    font-size: 300%;
     color: #cccccc;
-    margin: 1%
-    padding: 5%;
+    margin: 1%;
 }
 
-.contact-section{
+/*.social a:hover {
+    background-color: #778B90;
+}*/
+
+.contact-section {
     clear: left;
     background: url("../images/hero-image.jpeg");
-    
+
     background-position: center;
     height: 300px;
 }
 
-.contact-form{
+.contact-form {
     margin: 30px;
-    color:#163635;
+    color: #163635;
     background-color: #778B90;
     max-width: 400px;
     position: absolute;
@@ -197,7 +203,7 @@ footer {
     border-radius: 15px;
 }
 
-.text-input{
+.text-input {
     width: 100%;
     height: 30px;
     margin: 5px 0 10px 0;
@@ -205,12 +211,12 @@ footer {
     border-radius: 5px;
 }
 
-.message-box{
+.message-box {
     width: 100%;
     height: 15px;
 }
 
-.contact-button{
+.contact-button {
     margin-top: 15px;
     text-align: center;
     font-size: 100%;
@@ -219,14 +225,16 @@ footer {
     display: block;
     border-radius: 10px;
     padding: 10px 15px;
-    border: 0.5px  ridge;
-    
+    border: 0.5px ridge;
+
 }
-.contact-button:hover{
+
+.contact-button:hover {
     background-color: #163635;
     color: #cccccc;
 }
- .video-container{
+
+.video-container {
     margin: 30px;
     background-color: #163635;
     padding: 30px;
@@ -234,12 +242,12 @@ footer {
     border-radius: 15px;
     line-height: 150%;
     text-transform: uppercase;
-    float:right;
+    float: right;
 
- }
+}
 
- .video-container p{
+.video-container p {
     font-size: 150%;
     margin: 15px 0;
     text-align: center;
- }
+}
